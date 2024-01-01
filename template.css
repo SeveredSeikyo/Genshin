@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.background{
+    background-image: url(assets/aether-lumine-official-wallpaper-genshin-impact.jpg);
+    background-size: cover;
+    height: auto;
+}
+.logo{
+    max-height: 300px;
+    max-width: 1000px;
+    padding: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.webcontainer{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin: 20px 30px 20px 30px;
+}
+.fivecontainer{
+    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: roboto;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+    width: 200px;
+    height: auto;
+    background-image: url(https://rerollcdn.com/STARRAIL/Rarity/5_sm.png);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.fourcontainer{
+    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    align-items: center;
+    font-family: roboto;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+    width: 200px;
+    height: auto;
+    background-image: url(https://rerollcdn.com/STARRAIL/Rarity/4_sm.png);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.png{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.text{
+    font-size: 20px;
+    margin: 2px 2px 3px 2px;
+    text-align: left;
+    color: whitesmoke;
+}
+.symbol{
+    height: 16px;
+    width: 16px;
+    margin: 1px 3px 1px 1px;
+}
+.pyro{
+    color: #FFA870;
+    font-size: 15px;
+    margin: 0px;
+}
+.anemo{
+    color: #A1F3CB;
+    font-size: 15px;
+    margin: 0px;
+}
+.hydro{
+    color: #1C97EC;
+    font-size: 15px;
+    margin: 0px;
+}
+.cryo{
+    color: #AEF5F8;
+    font-size: 15px;
+    margin: 0px;
+}
+.electro{
+    color: #DEBAFF;
+    font-size: 15px;
+    margin: 0px;
+}
+.dendro{
+    color: #B2EB2A;
+    font-size: 15px;
+    margin: 0px;
+}
+.geo{
+    color: #F5D963;
+    font-size: 15px;
+    margin: 0px;
+}
+.weapon{
+    color: #c7c5c5;
+    font-size: 15px;
+    margin: 0px;
+}
+.pcontainer{
+    width: 150px;
+    height: auto;
+    background-color: #f89455cc;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+    align-self: flex-start;
+}
+.hcontainer{
+    width: 150px;
+    height: auto;
+    background-color: #1c95ecc0;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+    align-self: flex-start;
+}
+.ccontainer{
+    width: 150px;
+    height: auto;
+    background-color: #AEF5F8;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+}
+.acontainer{
+    width: 150px;
+    height: auto;
+    background-color: #A1F3CB;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+}
+.gcontainer{
+    width: 150px;
+    height: auto;
+    background-color: #F5D963;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+}
+.econtainer{
+    width: 150px;
+    height: auto;
+    background-color: #DEBAFF;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+}
+.dcontainer{
+    width: 150px;
+    height: auto;
+    background-color: #B2EB2A;
+    color: white;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: large;
+}
